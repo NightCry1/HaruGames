@@ -18,7 +18,7 @@ const express = require('express');
 const app = express()
 
 app.get('/', (req, res) => {
-  res.send('Add a "boxGame" or a "lolGen" to the end of this link to play a game!')
+  res.send(`Add a "/boxGame" or a "/lolGen" to the end of this link to play haru's dumb stuff!`)
 })
 
 app.get('/boxGame', (req, res) => {
